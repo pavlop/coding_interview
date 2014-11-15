@@ -19,7 +19,7 @@ public class RobotOnMatrix {
      * Assumes that any sum path can not be greater than Integer.MAX_VALUE and less than Integer.MIN_VALUE.
      */
     public int minPathMam(int[][] matrix) {
-        int res = -1;
+        int res = -1; // please return here if incorrect input
         if (matrix != null && matrix.length > 0 && matrix[0].length > 0) {
             int height = matrix.length;
             int width = matrix[0].length;
